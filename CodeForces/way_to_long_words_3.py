@@ -37,3 +37,10 @@ for _ in range(n):
         print(word[0] + str(len(word) - 2) + word[-1])
     else:
         print(word)
+
+#  or
+
+n = int(input())
+for i in range(n):
+    inpt = input()
+    print(inpt[0] + str(len(inpt) - 2) + inpt[-1] if len(inpt) > 10 else inpt)
